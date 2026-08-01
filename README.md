@@ -1,13 +1,10 @@
-# Metro-Ticket-Generating-System-in-ServiceNow
+ Metro-Ticket-Generating-System-in-ServiceNow
 
-Sure — here's a **shorter and cleaner GitHub README** you can directly paste:
-
-````markdown
-# 🚇 Metro Ticket Booking System
+ Metro Ticket Booking System
 
 A **Metro Ticket Booking System** developed using **ServiceNow** to simplify and digitize the metro ticket booking process.
 
-## 📌 Project Overview
+ Project Overview
 
 The system allows users to:
 
@@ -19,7 +16,7 @@ The system allows users to:
 - 💳 Manage smart card details
 - 💵 Select payment mode
 
-## 🛠️ Technologies Used
+Technologies Used
 
 - **ServiceNow**
 - **Service Catalog**
@@ -28,7 +25,7 @@ The system allows users to:
 - **Catalog Client Scripts**
 - **JavaScript**
 
-## ⚙️ Main Components
+Main Components
 
 ### Catalog Item
 **Book a metro ticket**
@@ -45,7 +42,7 @@ The catalog item collects:
 - Fare Amount
 - Payment Mode
 
-### Custom Tables
+ Custom Tables
 
 **Metro Station's Details**
 ```text
@@ -62,7 +59,7 @@ u_metro_database
 
 Stores smart card and recharge information.
 
-### 💻 Client Script
+ Client Script
 
 **FareCalculator**
 
@@ -71,9 +68,9 @@ Stores smart card and recharge information.
 
 The script retrieves the starting station, destination, and number of passengers to perform fare-related processing.
 
-## 🔄 Workflow
+ Workflow
 
-```text
+
 Open Service Catalog
         ↓
 Book a Metro Ticket
@@ -87,20 +84,17 @@ Calculate Fare
 Select Payment Mode
         ↓
 Submit Request
-```
 
-## 🎯 Objectives
+ Objectives
 
 * Digitize metro ticket booking
 * Simplify the booking process
 * Automate fare-related calculations
 * Manage station and smart card information
 
-## 📸 Screenshots
+ Screenshots
 
-Screenshots of the ServiceNow implementation are included in this repository.
-
-## 🚀 Future Enhancements
+Screenshots of the ServiceNow implementation are included in this repository. Future Enhancements
 
 * Online payment integration
 * QR-code ticket generation
@@ -109,14 +103,13 @@ Screenshots of the ServiceNow implementation are included in this repository.
 * Email/SMS notifications
 * Admin dashboard
 
-## 👩‍💻 Project Details
+ Project Details
 
 **Project:** Metro Ticket Booking System
 **Platform:** ServiceNow
 **Domain:** Transportation
 **Module:** Service Catalog
 
-```
 
 This version is **more suitable for GitHub** because it's concise while still explaining what your project does and the ServiceNow features you used.
 ```
